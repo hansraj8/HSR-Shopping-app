@@ -86,6 +86,13 @@ const Slider = () => {
         }
 
     };
+    useEffect(() => {
+        const timer = setInterval(() => {
+            setSlideIndex(prevIndex => (prevIndex + 1) % sliderItems.length);
+        }, 3000);
+
+        return () => clearInterval(timer);
+    }, []);
   return (
     <Container>
         <Arrow direction="left" onClick={()=>handleClick("left")}>
@@ -114,5 +121,5 @@ const Slider = () => {
     </Container>
   );
 };
-// pending 51
+
 export default Slider;  
