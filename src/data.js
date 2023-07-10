@@ -1,7 +1,7 @@
 export const sliderItems = [
     {
       id: 1,
-      img: "https://www.pngall.com/wp-content/uploads/5/Attractive-Model-Man-Transparent.png",
+      img: "https://otokomaeken.com/wp-content/uploads/2023/05/0cb204ee217f937644f745ba547d1ff3.png",
       title: "SUMMER SALE",
       desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
       bg: "f5fafd",
