@@ -47,9 +47,9 @@ export const sliderItems = [
     },
     {
       id:2,
-      img:"https://www.prada.com/content/dam/pradanux_products/U/UCS/UCS319/1YOTF010O/UCS319_1YOT_F010O_S_182_SLF.png",
+      img:"https://images.squarespace-cdn.com/content/v1/56064ca4e4b0c937d167b0b9/1488151203791-5Z4BJRKGQBAFH5W75GJE/44.png",
     },
-    {
+    { 
       id:3,
       img:"https://www.prada.com/content/dam/pradanux_products/U/UCS/UCS319/1YOTF010O/UCS319_1YOT_F010O_S_182_SLF.png",
     },
@@ -63,9 +63,9 @@ export const sliderItems = [
     },
     {
       id:6,
-      img:"https://d3o2e4imagesjr3mxnm3.cloudfront.net/Rocket-Vintage-Chill-Cap_66374_1_lg.png",
+      img:"https://img.freepik.com/free-psd/realistic-cap-mock-up_1310-152.jpg",
     },
-    {
+    { 
       id:7,
       img:"https://www.pngarts.com/files/3/Women-Jacket-PNG-High-Quality-Image.png",
     },
