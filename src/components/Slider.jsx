@@ -3,6 +3,7 @@ import { styled } from 'styled-components'
 import React, { useEffect, useState } from "react";
 import { ArrowLeftOutlined, ArrowRightOutlined } from '@material-ui/icons';
 import { sliderItems } from '../data';
+import {mobile} from "../responsive";
 
 const Container = styled.div`
     width: 100%;
@@ -10,6 +11,8 @@ const Container = styled.div`
     display: flex;
     position: relative;
     overflow:hidden;
+    ${mobile({ display: "none" })}
+
     `;
 const Arrow = styled.div`
     width: 50px;

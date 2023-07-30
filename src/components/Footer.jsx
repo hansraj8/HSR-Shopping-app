@@ -1,10 +1,13 @@
 import { Instagram, LinkedIn, YouTube, Room, Phone, MailOutline } from '@material-ui/icons';
 import React from 'react'
 import { styled } from 'styled-components'
+import { mobile } from '../responsive';
 
 
 const Container = styled.div`
 display:flex;
+${mobile({ flexDirection: "column" })}
+
 `;
 
 const Logo = styled.h1`
@@ -31,6 +34,8 @@ margin:20px 0px
 const Center = styled.span`
 flex: 1;
 padding: 20px;
+${mobile({ display: "none" })}
+
 `;
 
 const Title = styled.h3`
@@ -54,6 +59,8 @@ const ListItem = styled.li`
 const Right = styled.div`
 flex: 1;
 padding: 20px;
+${mobile({ backgroundColor : "#fff8f8" })}
+
 `;
 
 const ContactItem = styled.div`
@@ -119,10 +126,10 @@ const Footer = () => {
             <Right>
                 <Title>Contact</Title>
                 <ContactItem>
-                    <Room style={{ marginRight: "10px" }} /> 622 Dixie Path , South Tobinchester 98336
+                    <Room style={{ marginRight: "10px" }} /> A Hansraj's Company, Green Glen layout , Bengaluru 560103
                 </ContactItem>
                 <ContactItem>
-                    <Phone style={{ marginRight: "10px" }} /> +1 234 56 78
+                    <Phone style={{ marginRight: "10px" }} /> +91 8789661212
                 </ContactItem>
                 <ContactItem>
                     <MailOutline style={{ marginRight: "10px" }} /> contact@hansraj.dev

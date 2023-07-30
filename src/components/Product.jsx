@@ -26,7 +26,7 @@ height:350px;
 display:flex;
 align-items:center;
 justify-content:center;
-background-color: #f5fbfd;
+background-color: #ECF8F9;
 position:relative;
 &:hover ${Info}{
     opacity: 1;
@@ -50,7 +50,7 @@ const Icon = styled.div`
 width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: white;
+  background-color: #99DBF5;
   display: flex;
   align-items: center;
   justify-content: center;
